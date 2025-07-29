@@ -52,7 +52,7 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
+            <h1 class="title is-1 publication-title">treaming-Aware Neural Monte Carlo Rendering Framework with Unified Denoising-Compression and Client Collaboration</h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
@@ -79,7 +79,7 @@
                     <div class="publication-links">
                          <!-- Arxiv PDF link -->
                       <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                        <a href="https://dl.acm.org/doi/pdf/10.1145/3730879" target="_blank"
                         class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
                           <i class="fas fa-file-pdf"></i>
@@ -90,7 +90,7 @@
 
                     <!-- Supplementary PDF link -->
                     <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                      <a href="https://dl.acm.org/doi/suppl/10.1145/3730879/suppl_file/supplementary.pdf" target="_blank"
                       class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
                         <i class="fas fa-file-pdf"></i>
@@ -101,7 +101,7 @@
 
                   <!-- Github link -->
                   <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    <a href="https://github.com/Rendering-at-ZJU/Cloud-End-Collaboration-MC-Rendering" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
@@ -110,14 +110,14 @@
                   </a>
                 </span>
 
-                <!-- ArXiv abstract Link -->
+                <!-- Video Link -->
                 <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  <a href="https://dl.acm.org/doi/suppl/10.1145/3730879/suppl_file/video.mp4" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
-                    <i class="ai ai-arxiv"></i>
+                    <i class="fas fa-video"></i>
                   </span>
-                  <span>arXiv</span>
+                  <span>Video</span>
                 </a>
               </span>
             </div>
@@ -155,7 +155,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            Recent advances in cloud rendering have brought us a promising alternative for interactive photorealistic rendering on lightweight devices, which used to be only available on high-end platforms equipped with powerful graphic cards. This technique enables users to perform rendering-related creative tasks, such as 3D product visualization and lighting design, from the comfort of any location using handheld devices, rather than being confined to the front of a noisy heat-generating workstation. However, existing largescale cloud rendering systems that stream path-traced frames from the server to the client present extremely high rendering costs and transmission bandwidth requirements, even with advanced path-tracing acceleration and video compression techniques. To alleviate these problems, we propose a novel streaming-aware rendering framework that is able to learn a joint optimal model integrating two path-tracing acceleration techniques (adaptive sampling and denoising) and video compression technique. Our joint model can fully exploit the inherent connections between these techniques and thus achieve substantially reduced rendering costs and enhanced compression quality.We also introduce the collaboration of client rendering ability to assist the frame decoding by rendering G-buffers as the shared side information. We demonstrate that appropriately incorporating the geometry and material priors from G-buffers into a neural compression pipeline can significantly reduce the streaming bandwidth in a cloud rendering system, and lighten the compression module design for computation efficiency. Our experiments show that our method delivers the best quality at various bitrates compared to existing Monte Carlo rendering streaming schemes, while remaining lightweight and efficient for cross-platform thin clients, including mobiles and tablets.
           </p>
         </div>
       </div>
@@ -166,7 +166,7 @@
 
 
 <!-- Image carousel -->
-<section class="hero is-small">
+<!-- <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
       <div id="results-carousel" class="carousel results-carousel">
@@ -201,7 +201,7 @@
   </div>
 </div>
 </div>
-</section>
+</section> -->
 <!-- End image carousel -->
 
 
@@ -218,7 +218,7 @@
           
           <div class="publication-video">
             <!-- Youtube embed code here -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/watch?v=-PZy5XdzAsw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
           </div>
         </div>
       </div>
@@ -229,7 +229,7 @@
 
 
 <!-- Video carousel -->
-<section class="hero is-small">
+<!-- <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
       <h2 class="title is-3">Another Carousel</h2>
@@ -258,7 +258,7 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
 <!-- End video carousel -->
 
 
@@ -267,7 +267,7 @@
 
 
 <!-- Paper poster -->
-<section class="hero is-small is-light">
+<!-- <section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
       <h2 class="title">Poster</h2>
@@ -277,7 +277,7 @@
         
       </div>
     </div>
-  </section>
+  </section> -->
 <!--End paper poster -->
 
 
@@ -285,7 +285,25 @@
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>BibTex Code Here</code></pre>
+      <pre><code>@article{10.1145/3730879,
+author = {Fan, Hangming and Huo, Yuchi and Zheng, Chuankun and Hu, Chonghao and Yuan, Yazhen and Wang, Rui},
+title = {Streaming-Aware Neural Monte Carlo Rendering Framework with Unified Denoising-Compression and Client Collaboration},
+year = {2025},
+issue_date = {August 2025},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {44},
+number = {4},
+issn = {0730-0301},
+url = {https://doi.org/10.1145/3730879},
+doi = {10.1145/3730879},
+journal = {ACM Trans. Graph.},
+month = jul,
+articleno = {164},
+numpages = {13}
+}
+
+</code></pre>
     </div>
 </section>
 <!--End BibTex citation -->
